@@ -10,4 +10,4 @@ def test_case_one():
 
 def test_case_two():
     hello_world = HelloWorld(input_folder + "test_2.txt")
-    assert hello_world.run() == "hello-world\n"
+    assert hello_world.run() == "hello world\n"
